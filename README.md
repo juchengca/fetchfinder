@@ -52,5 +52,24 @@ This application was written using the following tech stack:
     ```
     http://localhost:3000
     ```
+5. **Enable Third-Party Cookies**
+    For the application to work correctly, you need to enable third-party cookies in your browser. 
+
+    - **Chrome**
+        1. Go to `Settings`.
+        2. Click on `Privacy and security`.
+        3. Click on `Cookies and other site data`.
+        4. Ensure `Block third-party cookies` is not selected.
+
+    - **Safari on macOS**
+        1. Open `Safari`.
+        2. Go to `Preferences`.
+        3. Click on the `Privacy` tab.
+        4. Uncheck `Prevent cross-site tracking`.
+
+    - **Safari on iOS**
+        1. Open `Settings`.
+        2. Scroll down and select `Safari`.
+        3. Toggle off `Prevent Cross-Site Tracking`.
 
 Please feel free to contact me with any questions!
