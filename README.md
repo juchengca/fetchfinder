@@ -7,11 +7,50 @@ Fetch Finder is a web application where you can view various dogs up for adoptio
 
 ### Description
 This application was written using the following tech stack:
-Javascript, React, Node.js, Express.js, Axios, Tailwind CSS, FontAwesome, Webpack, Babel and is hosted on Amazon EC2.
+- **Front-End**: JavaScript, React, Tailwind CSS, FontAwesome
+- **Back-End**: Node.js, Express.js, Axios
+- **Build Tools**: Webpack, Babel
+- **Hosting**: Amazon EC2
 
-When running the project locally, run the following commands and then launch localhost:3000 in your browser.
-- npm run client-dev
-- npm run server-dev
-- npm run daisy-dev
+### Prerequisites
+- Node.js 
+- npm 
+
+### Installation and Setup
+
+1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/juchengca/fetchfinder.git
+    cd fetchfinder
+    ```
+
+2. **Install Dependencies**
+    ```bash
+    npm install
+    ```
+
+3. **Run the Application Locally**
+    Open three separate terminal windows and run the following commands in each:
+
+    - **Client Development Server**
+      ```bash
+      npm run client-dev
+      ```
+
+    - **Server Development Server**
+      ```bash
+      npm run server-dev
+      ```
+
+    - **Tailwind CSS Watcher**
+      ```bash
+      npm run daisy-dev
+      ```
+
+4. **Access the Application**
+    Open your browser and navigate to:
+    ```
+    http://localhost:3000
+    ```
 
 Please feel free to contact me with any questions!
