@@ -10,6 +10,7 @@ const Dogs = () => {
 
   return (
     <div>
+      {/*If there is a match, show Match page. Otherwise, show Search page*/}
       {!match && <Search setMatch={setMatch} />}
       {match && <Match dog={match} />}
     </div>
